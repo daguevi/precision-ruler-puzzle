@@ -1,0 +1,22 @@
+# Core GUI Framework
+PySide6==6.7.1
+
+# Database
+# SQLAlchemy is included via PySide6, using sqlite3 native driver
+
+# PDF Export
+ReportLab==4.0.9
+Pillow==10.2.0
+
+# Utilities
+numpy==1.24.3
+pydantic==2.6.4
+python-dateutil==2.8.2
+
+# Development & Testing
+pytest==7.4.4
+pytest-cov==4.1.0
+pytest-qt==4.2.1
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
