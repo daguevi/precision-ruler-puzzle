@@ -1,22 +1,22 @@
-# Core GUI Framework
-PySide6==6.7.1
+# Core GUI Framework - Debian 13 compatible
+PySide6>=6.5.0
 
 # Database
-# SQLAlchemy is included via PySide6, using sqlite3 native driver
+# SQLite3 is built-in
 
 # PDF Export
-ReportLab==4.0.9
-Pillow==10.2.0
+ReportLab>=4.0.0
+Pillow>=10.0.0
 
 # Utilities
-numpy==1.24.3
-pydantic==2.6.4
-python-dateutil==2.8.2
+numpy>=1.23.0
+pydantic>=2.0.0
+python-dateutil>=2.8.0
 
 # Development & Testing
-pytest==7.4.4
-pytest-cov==4.1.0
-pytest-qt==4.2.1
-black==24.1.1
-flake8==7.0.0
-mypy==1.8.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-qt>=4.2.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
